@@ -4,4 +4,4 @@ WORKDIR    /app
 ADD        package.json .
 ADD        server.json  .
 RUN        npm install
-CMD        ["npm", "server.js"]
+CMD        ["node", "server.js"]
